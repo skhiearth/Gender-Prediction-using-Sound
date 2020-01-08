@@ -1,2 +1,4 @@
 # Gender-Prediction-using-Sound
 Analysing the gender distribution of children's book writers and use sound to match names to gender. Inspired by the DataCamp project of the same name by Tufool Alnuaimi.
+
+Using the Python package `Fuzzy` to find out the genders of authors that have appeared in the New York Times Best Seller list for Children's Picture books. First, using fuzzy (sound) name matching, we search for author names in a dataset provided by the US Social Security Administration that contains names and genders of all individuals who have applied for Social Security Cards. Next, we'll aggregate the author dataset by including gender. Finally, we will use the new dataset to plot the gender distribution of children's picture books authors over time to get a better way to match names than spelling.
